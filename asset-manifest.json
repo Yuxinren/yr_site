@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yr_site/static/css/main.a532e61e.css",
-    "main.js": "/yr_site/static/js/main.ff54e15b.js",
+    "main.js": "/yr_site/static/js/main.0448aa30.js",
     "static/js/787.5a42e17b.chunk.js": "/yr_site/static/js/787.5a42e17b.chunk.js",
     "static/media/selfie.jpg": "/yr_site/static/media/selfie.a34d0655c5a213c1ad70.jpg",
     "static/media/eventsOrg.png": "/yr_site/static/media/eventsOrg.24af9556de9ce7864c89.png",
@@ -16,11 +16,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/yr_site/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/yr_site/index.html",
     "main.a532e61e.css.map": "/yr_site/static/css/main.a532e61e.css.map",
-    "main.ff54e15b.js.map": "/yr_site/static/js/main.ff54e15b.js.map",
+    "main.0448aa30.js.map": "/yr_site/static/js/main.0448aa30.js.map",
     "787.5a42e17b.chunk.js.map": "/yr_site/static/js/787.5a42e17b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a532e61e.css",
-    "static/js/main.ff54e15b.js"
+    "static/js/main.0448aa30.js"
   ]
 }
