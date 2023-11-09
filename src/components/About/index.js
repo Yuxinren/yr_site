@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
+import selfie from "../../assets/images/selfie.jpg";
 import './index.scss'
 
 const About = () => {
@@ -43,6 +44,9 @@ const About = () => {
           <p>
             You can download my <a href="/pdfs/resume.pdf" download="resume.pdf" className= "resume-link">resume</a> here.
           </p>
+        </div>
+        <div className= "image-zone">
+          <img src = {selfie} alt="Selfie" className="selfie"/>
         </div>
 
 

@@ -4,10 +4,17 @@ import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import { getDocs, collection } from 'firebase/firestore';
 import { db } from '../../firebase';
+import eventsOrg from '../../assets/images/eventsOrg.png';
+import listView from '../../assets/images/Listview.png';
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
     const [portfolio, setPortfolio] = useState([]);
+    const imageMap = {
+        "USC Student Events Organizer": eventsOrg,
+        "Autonation-Repairsmith Fleet Portal": listView,
+    };
+
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -36,7 +43,7 @@ const Portfolio = () => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img 
-                                src={port.image}
+                                src={imageMap[port.name]}
                                 className="portfolio-image"
                                 alt="portfolio" />
                                 <div className="content">
@@ -67,6 +74,10 @@ const Portfolio = () => {
                     />
                 </h1>
                 <div>{renderPortfolio(portfolio)}</div>
+                <p>
+                    Please find more projects like Minesweeper on Android Studio, Find my Classmates app with chat feature,
+                    Multi-Thread automatic stock trader on my Github repository!
+                </p>
             </div>
             <Loader type="pacman" />
         </>

@@ -37,11 +37,10 @@
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
-
-.container.contact-page,
 .container.about-page,
+.container.contact-page,
 .container.portfolio-page {
-  
+
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
@@ -106,6 +105,21 @@
     display: table-cell;
     max-height: 90%;
   }
+
+    .image-zone {
+      position: absolute;
+      right: 15%;
+      top: 50%;
+      transform: translateY(-50%);
+      max-width: 20%;
+    }
+
+    img.selfie {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 300%;
+      object-fit: contain;
+    }
 
   .text-animate-hover {
     &:hover {
