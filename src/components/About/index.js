@@ -42,7 +42,7 @@ const About = () => {
             Also, I love cooking, and I really enjoying sharing my hometown's food to my peers here at Cali.
           </p>
           <p>
-            You can download my <a href="/pdfs/resume.pdf" download="resume.pdf" className= "resume-link">resume</a> here.
+            You can download my <a href="/yr_site/pdfs/resume.pdf" download="resume.pdf" className= "resume-link">resume</a> here.
           </p>
         </div>
         <div className= "image-zone">
