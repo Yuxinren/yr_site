@@ -85,19 +85,19 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          2801 Sunset Pl, Apt 611
+          1200 S Figeuroa St. Apt 1509
           <br />
           Los Angeles
           <br />
           CA <br />
-          90005 <br />
+          90015 <br />
           <br />
           <span>yuxinren@usc.edu</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[34.060848, -118.284210]} zoom={16}>
+          <MapContainer center={[34.041518, -118.266895]} zoom={16}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[34.060848, -118.284210]}>
+            <Marker position={[34.041518, -118.266895]}>
               <Popup>Peter lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
